@@ -39,4 +39,7 @@ cd dolphin
 mkdir build && cd build
 cmake ..
 cmake --build .
+
+cd dolphin/bin
+cp ../style.qss .
 ```
